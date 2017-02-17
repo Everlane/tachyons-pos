@@ -9,9 +9,760 @@
     <meta name="author" content="">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/css/tachyons.css">
+    <link rel="stylesheet" href="css/tachyons.css">
   </head>
   <body>
+    <section>
+      <div class="ph3 ph5-ns pt3" id="style">
+        <div class="mw-9 center overflow-auto">
+          <h3 class="f6 ttu fw6 mb0 mt5 bb pb2">Typography</h3>
+          <article class="dt-ns dt--fixed-ns">
+            <div class="dtc-ns v-mid overflow-auto">
+              <h1 class="f1 lh-title">Level 1 Heading</h1>
+              <h2 class="f2 lh-title">Level 2 Heading</h2>
+              <h3 class="f3 lh-title">Level 3 Heading</h3>
+              <h4 class="f4 lh-title">Level 4 Heading</h4>
+              <h5 class="f5 lh-title">Level 5 Heading</h5>
+              <h6 class="f6 lh-title">Level 6 Heading</h6>
+            </div>
+            <div class="dtc-ns v-mid">
+              <pre class="ba b--black-05  pa2 overflow-auto">
+                <code class="db f6 pa3 lh-copy">
+.f1 { font-size: 3rem; }
+.f2 { font-size: 2rem; }
+.f3 { font-size: 1.25rem; }
+.f4 { font-size: 1rem; }
+.f5 { font-size: 0.875rem; }
+.f6 { font-size: 0.75rem; }
+                </code>
+              </pre>
+            </div>
+          </article>
+          <article class="mt5">
+            <h3 class="f6 ttu fw6 mt0 mb3 bb pb2">Type Styles</h3>
+            <div class="dt-ns dt--fixed-ns">
+              <div class="dtc v-mid">
+                <p class="i">Italicize: to write or print (text) in italics.</p>
+                <p class="b">Some text that needs to be super bold.</p>
+                <p class="underline">This text wants to be underlined.</p>
+                <p class="strike">This text should be crossed out.</p>
+                <p class="ttc">This text should be capitalized.</p>
+                <p class="ttu">This text should be uppercase.</p>
+              </div>
+              <div class="dtc-ns v-mid">
+                <pre class="ba b--black-05  pa2 overflow-auto"><code class="db f6 pa3 lh-copy">
+    .i {         font-style: italic; }
+    .b {         font-weight: bold; }
+    .underline { text-decoration: underline; }
+    .strike {    text-decoration: line-through; }
+    .ttc {       text-transform: capitalize; }
+    .ttu {       text-transform: uppercase; }
+    </code>
+    </pre>
+              </div>
+            </div>
+          </article>
+          <article class="mt5">
+            <h3 class="f6 ttu fw6 mt0 mb3 bb pb2">Typefaces</h3>
+            <div class="dt-ns dt--fixed-ns">
+              <div class="dtc v-mid">
+                <h4 class="f6 mb0 mt3">serif</h4>
+                <p class="serif">a b c d e f g h i j k l m n o p q r s t u v w x y z</p>
+                <p class="serif ttu"> a b c d e f g h i j k l m n o p q r s t u v w x y z</p>
+                <h4 class="f6 mb0 mt3">sans-serif</h4>
+                <p class="sans-serif"> a b c d e f g h i j k l m n o p q r s t u v w x y z</p>
+                <p class="sans-serif ttu"> a b c d e f g h i j k l m n o p q r s t u v w x y z</p>
+              </div>
+              <div class="dtc-ns v-mid">
+                <pre class="ba b--black-05  pa2 overflow-auto"><code class="db f6 pa3 lh-copy">
+.sans-serif {
+  font-family: 'avenir next', avenir,
+               helvetica, 'helvetica neue',
+               arial, sans-serif;
+}
+.serif { font-family: times, serif; }
+    </code>
+    </pre>
+              </div>
+            </div>
+          </article>
+          <!--
+          <article class="mt5">
+            <h3 class="f6 ttu fw6 mt0 mb3 bb pb2">Measure</h3>
+            <div class="dt-ns dt--fixed-ns">
+              <div class="dtc v-mid f6">
+                <h4 class="mt4 fw6 f6">Wide Measure</h4>
+                <p class="measure-wide lh-copy">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                  diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                  aliquyam erat, sed diam voluptua. At vero eos et accusam et justo
+                  duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+                  sanctus est Lorem ipsum dolor sit amet.
+                </p>
+                <h4 class="mt4 fw6 f6">Measure</h4>
+                <p class="measure lh-copy">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                  diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                  aliquyam erat, sed diam voluptua. At vero eos et accusam et justo
+                  duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+                  sanctus est Lorem ipsum dolor sit amet.
+                </p>
+                <h4 class="mt4 fw6 f6">Narrow Measure</h4>
+                <p class="measure-narrow lh-copy">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                  diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                  aliquyam erat, sed diam voluptua. At vero eos et accusam et justo
+                  duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+                  sanctus est Lorem ipsum dolor sit amet.
+                </p>
+              </div>
+              <div class="dtc-ns v-mid">
+                <pre class="ba b--black-05  pa2 overflow-auto"><code class="db f6 pa3 lh-copy">
+    .measure-wide {   max-width: 34em; }
+    .measure {        max-width: 30em; }
+    .measure-narrow { max-width: 20em; }
+    </code>
+    </pre>
+              </div>
+            </div>
+          </article>
+        -->
+        </div>
+      </div>
+      <article class="mt5 id=" grids""="">
+        <div class="ph3 ph5-ns">
+          <div class="mw-9 center">
+            <h3 class="f6 ttu fw6 mt0 bb pb2">Grids</h3>
+            <p class="lh-copy measure">
+              Floats, widths, and padding can be combined to build a
+              wide variety of grids.
+            </p>
+          </div>
+
+          <section class="cf col16 pv3 f6">
+            <div class="fl col16 pa1 bg-light-grey mb1">
+              <div class="tc pv2 truncate no-wrap"><code>col16</code></div>
+            </div>
+
+            <div class="fl col15 pa1 bg-light-grey mb1">
+              <div class="tc pv2 truncate no-wrap"><code>col15</code></div>
+            </div>
+            <div class="fl col1 pa1 bg-lightest-grey mb1">
+              <div class="tc pv2 truncate no-wrap"><code>col1</code></div>
+            </div>
+
+            <div class="fl col14 pa1 bg-light-grey mb1">
+              <div class="tc pv2 truncate no-wrap"><code>col14</code></div>
+            </div>
+            <div class="fl col2 pa1 bg-lightest-grey mb1">
+              <div class="tc pv2 truncate no-wrap"><code>col2</code></div>
+            </div>
+
+            <div class="fl col13 pa1 bg-light-grey mb1">
+              <div class="tc pv2 truncate no-wrap"><code>col13</code></div>
+            </div>
+            <div class="fl col3 pa1 bg-lightest-grey mb1">
+              <div class="tc pv2 truncate no-wrap"><code>col3</code></div>
+            </div>
+
+            <div class="fl col12 pa1 bg-light-grey mb1">
+              <div class="tc pv2 truncate no-wrap"><code>col12</code></div>
+            </div>
+            <div class="fl col4 pa1 bg-lightest-grey mb1">
+              <div class="tc pv2 truncate no-wrap"><code>col4</code></div>
+            </div>
+
+            <div class="fl col11 pa1 bg-light-grey mb1">
+              <div class="tc pv2 truncate no-wrap"><code>col11</code></div>
+            </div>
+            <div class="fl col5 pa1 bg-lightest-grey mb1">
+              <div class="tc pv2 truncate no-wrap"><code>col5</code></div>
+            </div>
+
+            <div class="fl col10 pa1 bg-light-grey mb1">
+              <div class="tc pv2 truncate no-wrap"><code>col10</code></div>
+            </div>
+            <div class="fl col6 pa1 bg-lightest-grey mb1">
+              <div class="tc pv2 truncate no-wrap"><code>col6</code></div>
+            </div>
+
+            <div class="fl col9 pa1 bg-light-grey mb1">
+              <div class="tc pv2 truncate no-wrap"><code>col9</code></div>
+            </div>
+            <div class="fl col7 pa1 bg-lightest-grey mb1">
+              <div class="tc pv2 truncate no-wrap"><code>col7</code></div>
+            </div>
+
+            <div class="fl col8 pa1 bg-light-grey mb1">
+              <div class="tc pv2 truncate no-wrap"><code>col8</code></div>
+            </div>
+            <div class="fl col8 pa1 bg-lightest-grey mb1">
+              <div class="tc pv2 truncate no-wrap"><code>col8</code></div>
+            </div>
+
+            <div class="fl col4 pa1 bg-grey mb1">
+              <div class="tc pv2 truncate no-wrap"><code>col4</code></div>
+            </div>
+            <div class="fl col4 pa1 bg-medium-grey mb1">
+              <div class="tc pv2 truncate no-wrap"><code>col4</code></div>
+            </div>
+            <div class="fl col4 pa1 bg-light-grey mb1">
+              <div class="tc pv2 truncate no-wrap"><code>col4</code></div>
+            </div>
+            <div class="fl col4 pa1 bg-lightest-grey mb1">
+              <div class="tc pv2 truncate no-wrap"><code>col4</code></div>
+            </div>
+
+            <div class="fl col1 pa1 bg-light-grey mb1">
+              <div class="tc pv2 truncate no-wrap"><code>col1</code></div>
+            </div>
+            <div class="fl col1 pa1 bg-lightest-grey mb1">
+              <div class="tc pv2 truncate no-wrap"><code>col1</code></div>
+            </div>
+            <div class="fl col1 pa1 bg-light-grey mb1">
+              <div class="tc pv2 truncate no-wrap"><code>col1</code></div>
+            </div>
+            <div class="fl col1 pa1 bg-lightest-grey mb1">
+              <div class="tc pv2 truncate no-wrap"><code>col1</code></div>
+            </div>
+            <div class="fl col1 pa1 bg-light-grey mb1">
+              <div class="tc pv2 truncate no-wrap"><code>col1</code></div>
+            </div>
+            <div class="fl col1 pa1 bg-lightest-grey mb1">
+              <div class="tc pv2 truncate no-wrap"><code>col1</code></div>
+            </div>
+            <div class="fl col1 pa1 bg-light-grey mb1">
+              <div class="tc pv2 truncate no-wrap"><code>col1</code></div>
+            </div>
+            <div class="fl col1 pa1 bg-lightest-grey mb1">
+              <div class="tc pv2 truncate no-wrap"><code>col1</code></div>
+            </div>
+            <div class="fl col1 pa1 bg-light-grey mb1">
+              <div class="tc pv2 truncate no-wrap"><code>col1</code></div>
+            </div>
+            <div class="fl col1 pa1 bg-lightest-grey mb1">
+              <div class="tc pv2 truncate no-wrap"><code>col1</code></div>
+            </div>
+            <div class="fl col1 pa1 bg-light-grey mb1">
+              <div class="tc pv2 truncate no-wrap"><code>col1</code></div>
+            </div>
+            <div class="fl col1 pa1 bg-lightest-grey mb1">
+              <div class="tc pv2 truncate no-wrap"><code>col1</code></div>
+            </div>
+            <div class="fl col1 pa1 bg-light-grey mb1">
+              <div class="tc pv2 truncate no-wrap"><code>col1</code></div>
+            </div>
+            <div class="fl col1 pa1 bg-lightest-grey mb1">
+              <div class="tc pv2 truncate no-wrap"><code>col1</code></div>
+            </div>
+            <div class="fl col1 pa1 bg-light-grey mb1">
+              <div class="tc pv2 truncate no-wrap"><code>col1</code></div>
+            </div>
+            <div class="fl col1 pa1 bg-lightest-grey mb1">
+              <div class="tc pv2 truncate no-wrap"><code>col1</code></div>
+            </div>
+          </section>
+        </div>
+      </article>
+      <article class="mt5 id=" grids""="">
+        <div class="ph3 ph5-ns">
+          <div class="mw-9 center">
+            <h3 class="f6 ttu fw6 mt0 bb pb2">Widths</h3>
+            <p class="lh-copy measure">
+              Widths scale in 8px increments, starting with 8px.
+            </p>
+          </div>
+
+          <table border="0" cellspacing="5" cellpadding="5">
+            <tbody>
+              <tr>
+                <td>
+                  <code class="code">.w1</code>
+                </td>
+                <td><div class="w1 bg-black-10 pv1"></div></td>
+              </tr>
+              <tr>
+                <td>
+                  <code class="code">.w2</code>
+                </td>
+                <td><div class="w2 bg-black-10 pv1"></div></td>
+              </tr>
+              <tr>
+                <td>
+                  <code class="code">.w3</code>
+                </td>
+                <td><div class="w3 bg-black-10 pv1"></div></td>
+              </tr>
+              <tr>
+                <td>
+                  <code class="code">.w4</code>
+                </td>
+                <td><div class="w4 bg-black-10 pv1"></div></td>
+              </tr>
+              <tr>
+                <td>
+                  <code class="code">.w5</code>
+                </td>
+                <td><div class="w5 bg-black-10 pv1"></div></td>
+              </tr>
+              <tr>
+                <td>
+                  <code class="code">.w6</code>
+                </td>
+                <td><div class="w6 bg-black-10 pv1"></div></td>
+              </tr>
+              <tr>
+                <td>
+                  <code class="code">.w7</code>
+                </td>
+                <td><div class="w7 bg-black-10 pv1"></div></td>
+              </tr>
+              <tr>
+                <td>
+                  <code class="code">.w8</code>
+                </td>
+                <td><div class="w8 bg-black-10 pv1"></div></td>
+              </tr>
+              <tr>
+                <td>
+                  <code class="code">.w9</code>
+                </td>
+                <td><div class="w9 bg-black-10 pv1"></div></td>
+              </tr>
+              <tr>
+                <td>
+                  <code class="code">.w10</code>
+                </td>
+                <td><div class="w10 bg-black-10 pv1"></div></td>
+              </tr>
+              <tr>
+                <td>
+                  <code class="code">.w11</code>
+                </td>
+                <td><div class="w11 bg-black-10 pv1"></div></td>
+              </tr>
+              <tr>
+                <td>
+                  <code class="code">.w12</code>
+                </td>
+                <td><div class="w12 bg-black-10 pv1"></div></td>
+              </tr>
+              <tr>
+                <td>
+                  <code class="code">.w13</code>
+                </td>
+                <td><div class="w13 bg-black-10 pv1"></div></td>
+              </tr>
+              <tr>
+                <td>
+                  <code class="code">.w14</code>
+                </td>
+                <td><div class="w14 bg-black-10 pv1"></div></td>
+              </tr>
+              <tr>
+                <td>
+                  <code class="code">.w15</code>
+                </td>
+                <td><div class="w15 bg-black-10 pv1"></div></td>
+              </tr>
+              <tr>
+                <td>
+                  <code class="code">.w16</code>
+                </td>
+                <td><div class="w16 bg-black-10 pv1"></div></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </article>
+      <article class="mt5">
+        <div class="ph3 ph5-ns">
+          <div class="mw-9 center">
+            <h3 class="f6 ttu fw6 mt0 bb pb2">Heights</h3>
+            <p class="lh-copy measure">
+              Heights scale in 8px increments, starting with 8px.
+            </p>
+          </div>
+
+          <table border="0" cellspacing="5" cellpadding="5">
+            <tbody>
+              <tr>
+                <td>
+                  <code class="code">.h1</code>
+                </td>
+                <td><div class="h1 w8 bg-black-10 pv1"></div></td>
+              </tr>
+              <tr>
+                <td>
+                  <code class="code">.h2</code>
+                </td>
+                <td><div class="h2 w8 bg-black-10 pv1"></div></td>
+              </tr>
+              <tr>
+                <td>
+                  <code class="code">.h3</code>
+                </td>
+                <td><div class="h3 w8 bg-black-10 pv1"></div></td>
+              </tr>
+              <tr>
+                <td>
+                  <code class="code">.h4</code>
+                </td>
+                <td><div class="h4 w8 bg-black-10 pv1"></div></td>
+              </tr>
+              <tr>
+                <td>
+                  <code class="code">.h5</code>
+                </td>
+                <td><div class="h5 w8 bg-black-10 pv1"></div></td>
+              </tr>
+              <tr>
+                <td>
+                  <code class="code">.h6</code>
+                </td>
+                <td><div class="h6 w8 bg-black-10 pv1"></div></td>
+              </tr>
+              <tr>
+                <td>
+                  <code class="code">.h7</code>
+                </td>
+                <td><div class="h7 w8 bg-black-10 pv1"></div></td>
+              </tr>
+              <tr>
+                <td>
+                  <code class="code">.h8</code>
+                </td>
+                <td><div class="h8 w8 bg-black-10 pv1"></div></td>
+              </tr>
+              <tr>
+                <td>
+                  <code class="code">.h9</code>
+                </td>
+                <td><div class="h9 w8 bg-black-10 pv1"></div></td>
+              </tr>
+              <tr>
+                <td>
+                  <code class="code">.h10</code>
+                </td>
+                <td><div class="h10 w8 bg-black-10 pv1"></div></td>
+              </tr>
+              <tr>
+                <td>
+                  <code class="code">.h11</code>
+                </td>
+                <td><div class="h11 w8 bg-black-10 pv1"></div></td>
+              </tr>
+              <tr>
+                <td>
+                  <code class="code">.h12</code>
+                </td>
+                <td><div class="h12 w8 bg-black-10 pv1"></div></td>
+              </tr>
+              <tr>
+                <td>
+                  <code class="code">.h13</code>
+                </td>
+                <td><div class="h13 w8 bg-black-10 pv1"></div></td>
+              </tr>
+              <tr>
+                <td>
+                  <code class="code">.h14</code>
+                </td>
+                <td><div class="h14 w8 bg-black-10 pv1"></div></td>
+              </tr>
+              <tr>
+                <td>
+                  <code class="code">.h15</code>
+                </td>
+                <td><div class="h15 w8 bg-black-10 pv1"></div></td>
+              </tr>
+              <tr>
+                <td>
+                  <code class="code">.h16</code>
+                </td>
+                <td><div class="h16 w8 bg-black-10 pv1"></div></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </article>
+      <div class="ph3 ph5-ns pt5">
+        <div class="mw-9 center overflow-auto">
+          <article class="mt5">
+            <h3 class="f6 ttu fw6 mt0 mb3 bb pb2">Colors</h3>
+            <div class="dt-ns dt--fixed-ns">
+              <div class="dtc-ns v-mid pr4-ns">
+                <table class="border-collapse w-100" cellspacing="0" cellpadding="0">
+                  <tbody class="black-60 f6">
+                    <tr>
+                      <td class="bb b--black-05 bg-black pa4"></td>
+                      <td class="bb b--black-05 ph4 f4 b black">Aa</td>
+                      <td class="bb b--black-05">--black:  #000;</td>
+                    </tr>
+                    <tr>
+                      <td class="bb b--black-05 bg-dark-grey pa4 "></td>
+                      <td class="bb b--black-05 ph4 f4 b dark-grey">Aa</td>
+                      <td class="bb b--black-05">--dark-grey:  #4c4c4b;</td>
+                    </tr>
+                    <tr>
+                      <td class="bb b--black-05 bg-grey pa4 "></td>
+                      <td class="bb b--black-05 ph4 f4 b grey">Aa</td>
+                      <td class="bb b--black-05">--grey:  #808284;</td>
+                    </tr>
+                    <tr>
+                      <td class="bb b--black-05 bg-medium-grey pa4 "></td>
+                      <td class="bb b--black-05 ph4 f4 b medium-grey">Aa</td>
+                      <td class="bb b--black-05">--medium-grey:  #a3a5a7;</td>
+                    </tr>
+                    <tr>
+                      <td class="bb b--black-05 bg-light-grey pa4 "></td>
+                      <td class="bb b--black-05 ph4 f4 b light-grey">Aa</td>
+                      <td class="bb b--black-05">--light-grey:  #dfe0e1;</td>
+                    </tr>
+                    <tr>
+                      <td class="bb b--black-05 bg-lightest-grey pa4 "></td>
+                      <td class="bb b--black-05 ph4 f4 b lightest-grey">Aa</td>
+                      <td class="bb b--black-05">--lightest-grey:  #f7f7f8;</td>
+                    </tr>
+                    <tr>
+                      <td class="bb b--black-05 bg-white pa4 "></td>
+                      <td class="bb b--black-05 ph4 f4 b white">Aa</td>
+                      <td class="bb b--black-05">--white:  #fff;</td>
+                    </tr>
+                    <tr>
+                      <td class="bb b--black-05 bg-copper pa4 "></td>
+                      <td class="bb b--black-05 ph4 f4 b copper">Aa</td>
+                      <td class="bb b--black-05">--copper:  #bb8b7d;</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="dtc-ns v-mid">
+                <pre class="ba b--black-05 pa2 overflow-auto">
+                  <code class="db f6 ph3 lh-copy">
+.bg-black {           background-color: var(--black); }
+.bg-dark-grey {       background-color: var(--dark-grey); }
+.bg-grey {            background-color: var(--grey); }
+.bg-medium-grey {     background-color: var(--medium-grey); }
+.bg-light-grey {      background-color: var(--light-grey); }
+.bg-lightest-grey  {  background-color: var(--lightest-grey); }
+.bg-white {           background-color: var(--white); }
+.bg-copper {          background-color: var(--copper); }
+
+.black {            color: var(--black); }
+.dark-grey {        color: var(--dark-grey); }
+.grey  {            color: var(--grey); }
+.medium-grey {      color: var(--medium-grey); }
+.light-grey {       color: var(--light-grey); }
+.lightest-grey {    color: var(--lightest-grey); }
+.white {            color: var(--white); }
+.copper {           color: var(--copper); }
+                  </code>
+                </pre>
+              </div>
+            </div>
+          </article>
+          <article class="mt5">
+            <h3 class="f6 ttu fw6 mt0 mb3 bb pb2">Borders</h3>
+            <div class="dt-ns dt--fixed-ns">
+              <div class="dtc-ns v-mid">
+                <div class="ba db col8 pa3 b--grey mb3 bg-lightest-grey">ba = border on all sides</div>
+                <div class="bt db col8 pa3 b--grey mb3 bg-lightest-grey">bt = border top</div>
+                <div class="br db col8 pa3 b--grey mb3 bg-lightest-grey">br = border right</div>
+                <div class="bb db col8 pa3 b--grey mb3 bg-lightest-grey">bb = border bottom</div>
+                <div class="bl db col8 pa3 b--grey mb3 bg-lightest-grey">bl = border left</div>
+                <div class="bn db col8 pa3 b--grey mb3 bg-lightest-grey">bn = border none</div>
+              </div>
+              <div class="dtc-ns v-mid">
+                <pre class="ba b--black-05  pa2 overflow-auto"><code class="db f6 pa3 lh-copy">
+.ba { border-style: solid; border-width: 1px; }
+.bt { border-top-style: solid; border-top-width: 1px; }
+.br { border-right-style: solid; border-right-width: 1px; }
+.bb { border-bottom-style: solid; border-bottom-width: 1px; }
+.bl { border-left-style: solid; border-left-width: 1px; }
+.bn { border-style: none; border-width: 0; }
+    </code>
+    </pre>
+              </div>
+            </div>
+          </article>
+          <article class="mt5">
+            <h3 class="f6 ttu fw6 mt0 mb3 bb pb2">Border Styles</h3>
+            <div class="dt-ns dt--fixed-ns">
+              <div class="dtc-ns v-mid">
+                <div class="ba b--dotted db w16 tc pa3 mb3 ">dotted</div>
+                <div class="ba b--dashed db w16 tc pa3 mb3 ">dashed</div>
+                <div class="ba b--solid db w16 tc pa3 mb3 ">solid</div>
+                <div class="ba b--none db w16 tc pa3 mb3 ">none</div>
+              </div>
+              <div class="dtc-ns v-mid">
+                <pre class="ba b--black-05  pa2 overflow-auto"><code class="db f6 pa3 lh-copy">
+.b--dotted { border-style: dotted; }
+.b--dashed { border-style: dashed; }
+.b--solid {  border-style: solid; }
+.b--none {   border-style: none; }
+    </code>
+    </pre>
+              </div>
+            </div>
+          </article>
+          <article class="mt5">
+            <h3 class="f6 ttu fw6 mt0 mb3 bb pb2">Border Widths</h3>
+            <div class="dt-ns dt--fixed-ns">
+              <div class="dtc-ns v-mid">
+                <div class="bt db mw5 mb4 bg-near-white">default</div>
+                <div class="bt bw1 db mw5 mb4 bg-near-white">.125rem</div>
+                <div class="bt bw2 db mw5 mb4 bg-near-white">.25rem</div>
+                <div class="bt bw3 db mw5 mb4 bg-near-white">.5rem</div>
+                <div class="bt bw4 db mw5 mb4 bg-near-white">1rem</div>
+                <div class="bt bw5 db mw5 mb4 bg-near-white">2rem</div>
+              </div>
+              <div class="dtc-ns v-mid">
+                <pre class="ba b--black-05  pa2 overflow-auto"><code class="db f6 pa3 lh-copy">
+.bw0 { border-width: 0; }
+.bw1 { border-width: .125rem; }
+.bw2 { border-width: .25rem; }
+.bw3 { border-width: .5rem; }
+.bw4 { border-width: 1rem; }
+.bw5 { border-width: 2rem; }
+    </code>
+    </pre>
+              </div>
+            </div>
+          </article>
+          <article class="mt5">
+            <h3 class="f6 ttu fw6 mt0 mb3 bb pb2">Border Colors</h3>
+            <div class="dt-ns dt--fixed-ns">
+              <div class="dtc-ns v-mid pr4">
+                <div class="bt black b--black db pt2 pb2 mb3">b--black</div>
+                <div class="bt dark-grey b--dark-grey db pt2 pb2 mb3">b--dark-grey</div>
+                <div class="bt grey b--grey db pt2 pb2 mb3">b--grey</div>
+                <div class="bt medium-grey b--medium-grey db pt2 pb2 mb3">b--medium-grey</div>
+                <div class="bt light-grey b--light-grey db pt2 pb2 mb3">b--light-grey</div>
+                <div class="bt lightest-grey b--lightest-grey db pt2 pb2 mb3">b--lightest-grey</div>
+                <div class="bt white b--white db pt2 pb2 mb3">b--white</div>
+                <div class="bt copper b--copper db pt2 pb2 mb3">b--copper</div>
+                <!-- Shows borders with a black bg
+                <div class="bg-black pa2 db">
+                  <div class="bt black b--black db pt2 pb2 mb3">b--black</div>
+                  <div class="bt dark-grey b--dark-grey db pt2 pb2 mb3">b--dark-grey</div>
+                  <div class="bt medium-grey b--medium-grey db pt2 pb2 mb3">b--medium-grey</div>
+                  <div class="bt grey b--grey db pt2 pb2 mb3">b--grey</div>
+                  <div class="bt light-grey b--light-grey db pt2 pb2 mb3">b--light-grey</div>
+                  <div class="bt lightest-grey b--lightest-grey db pt2 pb2 mb3">b--lightest-grey</div>
+                  <div class="bt white b--white db pt2 pb2 mb3">b--white</div>
+                  <div class="bt copper b--copper db pt2 pb2 mb3">b--copper</div>
+                </div>
+                -->
+              </div>
+              <div class="dtc-ns v-mid">
+                <pre class="ba b--black-05  pa2 overflow-auto">
+                  <code class="db f6 pa3 lh-copy">
+.b--black {           border-color: var(--black); }
+.b--grey {            border-color: var(--grey); }
+.b--dark-gray {       border-color: var(--dark-grey); }
+.b--medium-gray {     border-color: var(--medium-grey); }
+.b--light-grey {      border-color: var(--light-grey); }
+.b--lightest-grey {   border-color: var(--lightest-grey); }
+.b--copper {          border-color: var(--copper); }
+.b--white {           border-color: var(--white); }
+.b--transparent {     border-color: var(--transparent); }
+                  </code>
+                </pre>
+              </div>
+            </div>
+          </article>
+          <article class="mt5">
+            <h3 class="f6 ttu fw6 mt0 mb3 bb pb2">Border Radii</h3>
+            <div class="dt-ns dt--fixed-ns">
+              <div class="dtc-ns v-mid">
+                <div class="ba dib ph4 pv3 mb4  br1">br1</div>
+                <div class="ba dib ph4 pv3 mb4  br2">br2</div>
+                <div class="ba dib ph4 pv3 mb4  br3">br3</div>
+                <div class="ba dib ph4 pv3 mb4  br4">br4</div>
+                <br>
+                <div class="dt dt--fixed">
+                  <div class="dtc v-mid">
+                    <div class="ba dib mb4 br-100 h3 w3 pa4 tc"></div>
+                  </div>
+                  <div class="dtc v-mid">
+                    <div class="ba dib mb4 ph4 pv3  br-pill">pill</div>
+                  </div>
+                </div>
+                <div class="ba br--bottom dib ph4 pv3 mb4 br3">br--bottom</div>
+                <div class="ba br--top dib ph4 pv3 mb4 br3">br--top</div>
+                <br>
+                <div class="ba br--left dib ph4 pv3 mb4 br3">br--left</div>
+                <div class="ba br--right dib ph4 pv3 mb4 br3">br--right</div>
+              </div>
+              <div class="dtc-ns v-mid">
+                <pre class="ba b--black-05  pa2 overflow-auto"><code class="db f6 pa3 lh-copy">
+    .br0 {        border-radius: 0; }
+    .br1 {        border-radius: .125rem; }
+    .br2 {        border-radius: .25rem; }
+    .br3 {        border-radius: .5rem; }
+    .br4 {        border-radius: 1rem; }
+    .br-100 {     border-radius: 100%; }
+    .br-pill {    border-radius: 9999px; }
+    .br--bottom {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+    .br--top {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    .br--right {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+    .br--left {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    </code>
+    </pre>
+              </div>
+            </div>
+          </article>
+          <article class="mt5">
+            <h3 class="f6 ttu fw6 mt0 mb3 bb pb2">Hover Animations</h3>
+            <div class="dt-ns dt--fixed-ns">
+              <div class="dtc-ns v-mid pr4-ns">
+                <div class="pa3 bg-black mb3 white grow pointer">Grow</div>
+                <div class="pa3 bg-black mb3 white dim pointer">Dim</div>
+              </div>
+              <div class="dtc-ns v-mid">
+                <pre class="ba b--black-05  pa2 overflow-auto"><code class="db f6 pa3 lh-copy">
+    .grow {
+      -moz-osx-font-smoothing: grayscale;
+      backface-visibility: hidden;
+      transform: translateZ(0);
+      transition: transform 0.25s ease-out;
+    }
+
+    .grow:hover,
+    .grow:focus {
+      transform: scale(1.05);
+    }
+
+    .dim {
+      opacity: 1;
+      transition: opacity .15s ease-in;
+    }
+    .dim:hover,
+    .dim:focus {
+      opacity: .5;
+      transition: opacity .15s ease-in;
+    }
+    </code>
+    </pre>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
 
   </body>
 </html>
