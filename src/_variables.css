@@ -1,6 +1,6 @@
 /*
 
-    VARIABLES   
+    VARIABLES
 
 */
 
@@ -10,26 +10,19 @@
 
 :root {
 
-  --sans-serif: -apple-system, BlinkMacSystemFont, 
-                'avenir next', avenir, 
-                helvetica, 'helvetica neue', 
-                ubuntu, 
-                roboto, 
-                noto, 
-                'segoe ui', 
-                arial, 
-                sans-serif; 
-  --serif: georgia, serif;  
-  --code: consolas, monaco, monospace; 
+  --sans-serif: 'avenir next', avenir,
+                helvetica, 'helvetica neue',
+                arial, sans-serif;
+  --serif: times, serif;
 
-  --font-size-headline: 6rem;
-  --font-size-subheadline: 5rem;
+  --font-size-headline: 4.5rem;
+  --font-size-subheadline: 3rem;
   --font-size-1: 3rem;
-  --font-size-2: 2.25rem;
-  --font-size-3: 1.5rem;
-  --font-size-4: 1.25rem;
-  --font-size-5: 1rem;
-  --font-size-6: .875rem;
+  --font-size-2: 2rem;
+  --font-size-3: 1.25rem;
+  --font-size-4: 1rem;
+  --font-size-5: 0.875rem;
+  --font-size-6: .75rem;
 
   --letter-spacing-tight:-.05em;
   --letter-spacing-1:.1em;
@@ -40,35 +33,81 @@
   --line-height-copy: 1.5;
 
   --spacing-none: 0;
-  --spacing-extra-small: .25rem;
-  --spacing-small: .5rem;
-  --spacing-medium: 1rem;
+  --spacing-extra-small: 0.5rem;
+  --spacing-small: 1rem;
+  --spacing-medium: 1.5rem;
   --spacing-large: 2rem;
-  --spacing-extra-large: 4rem;
-  --spacing-extra-extra-large: 8rem;
-  --spacing-extra-extra-extra-large: 16rem;
+  --spacing-extra-large: 2.5rem;
+  --spacing-extra-extra-large: 3rem;
+  --spacing-extra-extra-extra-large: 3.5rem;
 
-  --height-1: 1rem;
-  --height-2: 2rem;
-  --height-3: 4rem;
-  --height-4: 8rem;
-  --height-5: 16rem;
+  --height-1: 0.5rem;
+  --height-2: 1rem;
+  --height-3: 1.5rem;
+  --height-4: 2rem;
+  --height-5: 2.5rem;
+  --height-6: 3rem;
+  --height-7: 3.5rem;
+  --height-8: 4rem;
+  --height-9: 4.5rem;
+  --height-10: 5rem;
+  --height-11: 5.5rem;
+  --height-12: 6rem;
+  --height-13: 6.5rem;
+  --height-14: 7rem;
+  --height-15: 7.5rem;
+  --height-16: 8rem;
 
-  --width-1: 1rem;
-  --width-2: 2rem;
-  --width-3: 4rem;
-  --width-4: 8rem;
-  --width-5: 16rem;
+  --width-1: 0.5rem;
+  --width-2: 1rem;
+  --width-3: 1.5rem;
+  --width-4: 2rem;
+  --width-5: 2.5rem;
+  --width-6: 3rem;
+  --width-7: 3.5rem;
+  --width-8: 4rem;
+  --width-9: 4.5rem;
+  --width-10: 5rem;
+  --width-11: 5.5rem;
+  --width-12: 6rem;
+  --width-13: 6.5rem;
+  --width-14: 7rem;
+  --width-15: 7.5rem;
+  --width-16: 8rem;
 
-  --max-width-1: 1rem;
-  --max-width-2: 2rem;
-  --max-width-3: 4rem;
-  --max-width-4: 8rem;
-  --max-width-5: 16rem;
-  --max-width-6: 32rem;
-  --max-width-7: 48rem;
-  --max-width-8: 64rem;
-  --max-width-9: 96rem;
+  --max-width-1: 0.5rem;
+  --max-width-2: 1rem;
+  --max-width-3: 1.5rem;
+  --max-width-4: 2rem;
+  --max-width-5: 2.5rem;
+  --max-width-6: 3rem;
+  --max-width-7: 3.5rem;
+  --max-width-8: 4rem;
+  --max-width-9: 4.5rem;
+  --max-width-10: 5rem;
+  --max-width-11: 5.5rem;
+  --max-width-12: 6rem;
+  --max-width-13: 6.5rem;
+  --max-width-14: 7rem;
+  --max-width-15: 7.5rem;
+  --max-width-16: 8rem;
+
+  --col-1: 4rem;
+  --col-2: 8rem;
+  --col-3: 12rem;
+  --col-4: 16rem;
+  --col-5: 20rem;
+  --col-6: 24rem;
+  --col-7: 28rem;
+  --col-8: 32rem;
+  --col-9: 36rem;
+  --col-10: 40rem;
+  --col-11: 44rem;
+  --col-12: 48rem;
+  --col-13: 52rem;
+  --col-14: 56rem;
+  --col-15: 60rem;
+  --col-16: 64rem;
 
   --border-radius-none: 0;
   --border-radius-1: .125rem;
@@ -85,23 +124,20 @@
   --border-width-4: 1rem;
   --border-width-5: 2rem;
 
-  --box-shadow-1: 0px 0px 4px 2px rgba( 0, 0, 0, 0.2 ); 
-  --box-shadow-2: 0px 0px 8px 2px rgba( 0, 0, 0, 0.2 ); 
-  --box-shadow-3: 2px 2px 4px 2px rgba( 0, 0, 0, 0.2 ); 
-  --box-shadow-4: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 ); 
-  --box-shadow-5: 4px 4px 8px 0px rgba( 0, 0, 0, 0.2 ); 
+  --box-shadow-1: 0px 0px 4px 2px rgba( 0, 0, 0, 0.2 );
+  --box-shadow-2: 0px 0px 8px 2px rgba( 0, 0, 0, 0.2 );
+  --box-shadow-3: 2px 2px 4px 2px rgba( 0, 0, 0, 0.2 );
+  --box-shadow-4: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 );
+  --box-shadow-5: 4px 4px 8px 0px rgba( 0, 0, 0, 0.2 );
 
   --black: #000;
-  --near-black: #111;
-  --dark-gray:#333;
-  --mid-gray:#555;
-  --gray: #777;
-  --silver: #999;
-  --light-silver: #aaa;
-  --moon-gray: #ccc;
-  --light-gray: #eee;
-  --near-white: #f4f4f4;
   --white: #fff;
+  --grey: #808284;
+  --dark-grey: #4c4c4b;
+  --medium-grey: #a3a5a7;
+  --light-grey: #dfe0e1;
+  --lightest-grey: #f7f7f8;
+  --copper: #bb8b7d;
 
   --transparent:transparent;
 
@@ -130,30 +166,4 @@
  --white-05: rgba(255,255,255,.05);
  --white-025: rgba(255,255,255,.025);
  --white-0125: rgba(255,255,255,.0125);
-
-  --dark-red:  #e7040f;
-  --red:  #ff4136;
-  --light-red:  #ff725c;
-  --orange:  #ff6300;
-  --gold:  #ffb700;
-  --yellow:  #ffd700;
-  --light-yellow:  #fbf1a9;
-  --purple:  #5e2ca5;
-  --light-purple:  #a463f2;
-  --dark-pink:  #d5008f;
-  --hot-pink: #ff41b4;
-  --pink:  #ff80cc;
-  --light-pink:  #ffa3d7;
-  --dark-green:  #137752;
-  --green:  #19a974;
-  --light-green:  #9eebcf;
-  --navy:  #001b44;
-  --dark-blue:  #00449e;
-  --blue:  #357edd;
-  --light-blue:  #96ccff;
-  --lightest-blue:  #cdecff;
-  --washed-blue:  #f6fffe;
-  --washed-green:  #e8fdf5;
-  --washed-yellow:  #fffceb;
-  --washed-red:  #ffdfdf;
 }
