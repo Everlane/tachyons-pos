@@ -26,6 +26,16 @@
 .b--lightest-grey  {  border-color: var(--lightest-grey); }
 .b--copper {          border-color: var(--copper); }
 .b--white {           border-color: var(--white); }
+.b--blue {            border-color: var(--blue); }
+.b--light-blue {      border-color: var(--light-blue); }
+.b--dark-blue {       border-color: var(--dark-blue); }
+.b--green {           border-color: var(--green); }
+.b--light-green {     border-color: var(--light-green); }
+.b--dark-green {      border-color: var(--dark-green); }
+.b--purple {          border-color: var(--purple); }
+.b--orange {          border-color: var(--orange); }
+.b--red {             border-color: var(--red); }
+
 
 .b--white-90 {   border-color: var(--white-90); }
 .b--white-80 {   border-color: var(--white-80); }
