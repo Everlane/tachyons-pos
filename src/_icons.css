@@ -1,3 +1,57 @@
+.icon--circle-plus:before {
+  content: "\e910";
+}
+.icon--plus:before {
+  content: "\e920";
+}
+.icon--checkmark:before {
+  content: "\e933";
+}
+.icon--x:before {
+  content: "\e934";
+}
+.icon--circle-x:before {
+  content: "\e935";
+}
+.icon--circle-minus:before {
+  content: "\e937";
+}
+.icon--circe-plus:before {
+  content: "\e938";
+}
+.icon--ma:before {
+  content: "\e93b";
+}
+.icon--eye:before {
+  content: "\e93c";
+}
+.icon--stacks:before {
+  content: "\e93d";
+}
+.icon--credit-card:before {
+  content: "\e93e";
+}
+.icon--barcode:before {
+  content: "\e93f";
+}
+.icon--trash-can:before {
+  content: "\e941";
+}
+.icon--snapchat:before {
+  content: "\e942";
+}
+.icon--instagram:before {
+  content: "\e943";
+}
+.icon--twitter:before {
+  content: "\e944";
+}
+.icon--google-plus:before {
+  content: "\e945";
+}
+.icon--facebook:before {
+  content: "\e946";
+}
 .icon--circle-checkmark:before {
   content: "\e900";
 }
