@@ -14,7 +14,6 @@
   .lh-title { line-height: var(--line-height-title); }
   .lh-copy  { line-height: var(--line-height-copy); }
   .lh-none  { line-height: 0; }
-}
 
 @media (--breakpoint-not-small) {
   .lh-solid-ns { line-height: var(--line-height-solid); }
