@@ -48,7 +48,9 @@
 .dark-green {       color: var(--dark-green); }
 .purple {           color: var(--purple); }
 .orange {           color: var(--orange); }
+.dark-red {         color: var(--dark-red); }
 .red {              color: var(--red); }
+.french-vanilla {   color: var(--french-vanilla); }
 
 .bg-black-90 {         background-color: var(--black-90); }
 .bg-black-80 {         background-color: var(--black-80); }
@@ -90,4 +92,7 @@
 .bg-dark-green {      background-color: var(--dark-green); }
 .bg-purple {          background-color: var(--purple); }
 .bg-orange {          background-color: var(--orange); }
+.bg-dark-red {        background-color: var(--dark-red); }
 .bg-red {             background-color: var(--red); }
+.bg-french-vanilla {  background-color: var(--french-vanilla); }
+.bg-transparent {     background: transparent; }

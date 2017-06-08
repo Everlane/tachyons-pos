@@ -34,7 +34,9 @@
 .b--dark-green {      border-color: var(--dark-green); }
 .b--purple {          border-color: var(--purple); }
 .b--orange {          border-color: var(--orange); }
+.b--dark-red {        border-color: var(--dark-red); }
 .b--red {             border-color: var(--red); }
+.b--french-vanilla {  border-color: var(--french-vanilla); }
 
 
 .b--white-90 {   border-color: var(--white-90); }
