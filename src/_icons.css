@@ -196,3 +196,6 @@
 .icon--circle:before {
   content: "\e932";
 }
+.icon--magnify:before {
+  content: "\e92a";
+}
