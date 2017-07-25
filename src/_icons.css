@@ -199,3 +199,6 @@
 .icon--magnify:before {
   content: "\e92a";
 }
+.icon--arrow-right:before {
+  content: "\e936";
+}
