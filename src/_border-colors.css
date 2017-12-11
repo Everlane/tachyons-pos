@@ -102,18 +102,18 @@
   border-color: var(--brand-copper);
 }
 
-.b--brand-everlane-grey {
-  border-color: var(--brand-everlane-grey);
+.b--brand-grey {
+  border-color: var(--brand-grey);
 }
 
-.b--brand-dark-accent-grey {
-  border-color: var(--brand-dark-accent-grey);
+.b--brand-dark-grey {
+  border-color: var(--brand-dark-grey);
 }
-.b--brand-medium-accent-grey {
-  border-color: var(--brand-medium-accent-grey);
+.b--brand-medium-grey {
+  border-color: var(--brand-medium-grey);
 }
-.b--brand-light-accent-grey {
-  border-color: var(--brand-light-accent-grey);
+.b--brand-light-grey {
+  border-color: var(--brand-light-grey);
 }
 .b--brand-tone-grey {
   border-color: var(--brand-tone-grey);
@@ -128,7 +128,7 @@
   border-color: var(--brand-green);
 }
 .b--error-red {
-  border-color: var(--bg-brand-green);
+  border-color: var(--brand-error-red);
 }
 
 .b--white-90 {

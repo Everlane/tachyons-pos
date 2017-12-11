@@ -367,15 +367,15 @@ img { max-width: 100%; }
 .b--dark-daft-pink { border-color: #880e4f; }
 .b--rose { border-color: #f48fb1; }
 .b--brand-copper { border-color: #bb8b7d; }
-.b--brand-everlane-grey { border-color: #808284; }
-.b--brand-dark-accent-grey { border-color: #4c4c4b; }
-.b--brand-medium-accent-grey { border-color: #a3a5a7; }
-.b--brand-light-accent-grey { border-color: #dfe0e1; }
+.b--brand-grey { border-color: #808284; }
+.b--brand-dark-grey { border-color: #4c4c4b; }
+.b--brand-medium-grey { border-color: #a3a5a7; }
+.b--brand-light-grey { border-color: #dfe0e1; }
 .b--brand-tone-grey { border-color: #f7f7f8; }
 .b--brand-blue { border-color: #0264d6; }
 .b--brand-navy { border-color: #182677; }
 .b--brand-green { border-color: #009688; }
-.b--error-red { border-color: undefined; }
+.b--error-red { border-color: #cb5332; }
 .b--white-90 { border-color: rgba( 255, 255, 255, .9 ); }
 .b--white-80 { border-color: rgba( 255, 255, 255, .8 ); }
 .b--white-70 { border-color: rgba( 255, 255, 255, .7 ); }
@@ -1207,10 +1207,10 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .daft-pink { color: #e91e63; }
 .dark-daft-pink { color: #880e4f; }
 .brand-copper { color: #bb8b7d; }
-.brand-grey { color: undefined; }
-.brand-dark-grey { color: undefined; }
-.brand-medium-grey { color: undefined; }
-.brand-light-grey { color: undefined; }
+.brand-grey { color: #808284; }
+.brand-dark-grey { color: #4c4c4b; }
+.brand-medium-grey { color: #a3a5a7; }
+.brand-light-grey { color: #dfe0e1; }
 .brand-tone-grey { color: #f7f7f8; }
 .brand-blue { color: #0264d6; }
 .brand-navy { color: #182677; }
@@ -1263,10 +1263,10 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .bg-daft-pink { background: #e91e63; }
 .bg-dark-daft-pink { background: #880e4f; }
 .bg-brand-copper { background: #bb8b7d; }
-.bg-brand-grey { background: undefined; }
-.bg-brand-dark-grey { background: undefined; }
-.bg-brand-medium-grey { background: undefined; }
-.bg-brand-light-grey { background: undefined; }
+.bg-brand-grey { background: #808284; }
+.bg-brand-dark-grey { background: #4c4c4b; }
+.bg-brand-medium-grey { background: #a3a5a7; }
+.bg-brand-light-grey { background: #dfe0e1; }
 .bg-brand-tone-grey { background: #f7f7f8; }
 .bg-brand-blue { background: #0264d6; }
 .bg-brand-navy { background: #182677; }
