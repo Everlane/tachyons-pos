@@ -186,6 +186,10 @@
   color: var(--brand-green);
 }
 
+.brand-error-red {
+  color: var(--brand-error-red);
+}
+
 .bg-black-90 {
   background-color: var(--black-90);
 }
@@ -349,5 +353,8 @@
   background: var(--bg-brand-navy);
 }
 .bg-brand-green {
+  background: var(--bg-brand-green);
+}
+.bg-brand-error-red {
   background: var(--bg-brand-green);
 }

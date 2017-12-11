@@ -127,6 +127,9 @@
 .b--brand-green {
   border-color: var(--brand-green);
 }
+.b--error-red {
+  border-color: var(--bg-brand-green);
+}
 
 .b--white-90 {
   border-color: var(--white-90);
