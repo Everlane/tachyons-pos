@@ -1207,10 +1207,10 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .daft-pink { color: #e91e63; }
 .dark-daft-pink { color: #880e4f; }
 .brand-copper { color: #bb8b7d; }
-.brand-everlane-grey { color: #808284; }
-.brand-dark-accent-grey { color: #4c4c4b; }
-.brand-medium-accent-grey { color: #a3a5a7; }
-.brand-light-accent-grey { color: #dfe0e1; }
+.brand-grey { color: undefined; }
+.brand-dark-grey { color: undefined; }
+.brand-medium-grey { color: undefined; }
+.brand-light-grey { color: undefined; }
 .brand-tone-grey { color: #f7f7f8; }
 .brand-blue { color: #0264d6; }
 .brand-navy { color: #182677; }
@@ -1262,16 +1262,16 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .bg-web-surfin-blue { background: #2196f3; }
 .bg-daft-pink { background: #e91e63; }
 .bg-dark-daft-pink { background: #880e4f; }
-.bg-brand-copper { background: undefined; }
-.bg-brand-everlane-grey { background: undefined; }
-.bg-brand-dark-accent-grey { background: undefined; }
-.bg-brand-medium-accent-grey { background: undefined; }
-.bg-brand-light-accent-grey { background: undefined; }
-.bg-brand-tone-grey { background: undefined; }
-.bg-brand-blue { background: undefined; }
-.bg-brand-navy { background: undefined; }
-.bg-brand-green { background: undefined; }
-.bg-brand-error-red { background: undefined; }
+.bg-brand-copper { background: #bb8b7d; }
+.bg-brand-grey { background: undefined; }
+.bg-brand-dark-grey { background: undefined; }
+.bg-brand-medium-grey { background: undefined; }
+.bg-brand-light-grey { background: undefined; }
+.bg-brand-tone-grey { background: #f7f7f8; }
+.bg-brand-blue { background: #0264d6; }
+.bg-brand-navy { background: #182677; }
+.bg-brand-green { background: #009688; }
+.bg-brand-error-red { background: #009688; }
 /*
 
    SKINS:PSEUDO

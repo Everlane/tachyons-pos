@@ -154,20 +154,20 @@
   color: var(--brand-copper);
 }
 
-.brand-everlane-grey {
-  color: var(--brand-everlane-grey);
+.brand-grey {
+  color: var(--brand-grey);
 }
 
-.brand-dark-accent-grey {
-  color: var(--brand-dark-accent-grey);
+.brand-dark-grey {
+  color: var(--brand-dark-grey);
 }
 
-.brand-medium-accent-grey {
-  color: var(--brand-medium-accent-grey);
+.brand-medium-grey {
+  color: var(--brand-medium-grey);
 }
 
-.brand-light-accent-grey {
-  color: var(--brand-light-accent-grey);
+.brand-light-grey {
+  color: var(--brand-light-grey);
 }
 
 .brand-tone-grey {
@@ -329,32 +329,32 @@
   background: var(--dark-daft-pink);
 }
 .bg-brand-copper {
-  background: var(--bg-brand-copper);
+  background: var(--brand-copper);
 }
-.bg-brand-everlane-grey {
-  background: var(--bg-brand-everlane-grey);
+.bg-brand-grey {
+  background: var(--brand-grey);
 }
-.bg-brand-dark-accent-grey {
-  background: var(--bg-brand-dark-accent-grey);
+.bg-brand-dark-grey {
+  background: var(--brand-dark-grey);
 }
-.bg-brand-medium-accent-grey {
-  background: var(--bg-brand-medium-accent-grey);
+.bg-brand-medium-grey {
+  background: var(--brand-medium-grey);
 }
-.bg-brand-light-accent-grey {
-  background: var(--bg-brand-light-accent-grey);
+.bg-brand-light-grey {
+  background: var(--brand-light-grey);
 }
 .bg-brand-tone-grey {
-  background: var(--bg-brand-tone-grey);
+  background: var(--brand-tone-grey);
 }
 .bg-brand-blue {
-  background: var(--bg-brand-blue);
+  background: var(--brand-blue);
 }
 .bg-brand-navy {
-  background: var(--bg-brand-navy);
+  background: var(--brand-navy);
 }
 .bg-brand-green {
-  background: var(--bg-brand-green);
+  background: var(--brand-green);
 }
 .bg-brand-error-red {
-  background: var(--bg-brand-green);
+  background: var(--brand-green);
 }
