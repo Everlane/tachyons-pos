@@ -362,6 +362,20 @@ img { max-width: 100%; }
 .b--french-vanilla { border-color: #fff8e1; }
 .b--pink { border-color: #ea80fc; }
 .b--cyan { border-color: #80d8ff; }
+.b--web-surfin-blue { border-color: #2196f3; }
+.b--daft-pink { border-color: #e91e63; }
+.b--dark-daft-pink { border-color: #880e4f; }
+.b--rose { border-color: #f48fb1; }
+.b--brand-copper { border-color: #bb8b7d; }
+.b--brand-grey { border-color: #808284; }
+.b--brand-dark-grey { border-color: #4c4c4b; }
+.b--brand-medium-grey { border-color: #a3a5a7; }
+.b--brand-light-grey { border-color: #dfe0e1; }
+.b--brand-tone-grey { border-color: #f7f7f8; }
+.b--brand-blue { border-color: #0264d6; }
+.b--brand-navy { border-color: #182677; }
+.b--brand-green { border-color: #009688; }
+.b--error-red { border-color: #cb5332; }
 .b--white-90 { border-color: rgba( 255, 255, 255, .9 ); }
 .b--white-80 { border-color: rgba( 255, 255, 255, .8 ); }
 .b--white-70 { border-color: rgba( 255, 255, 255, .7 ); }
@@ -1188,6 +1202,20 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .french-vanilla { color: #fff8e1; }
 .pink { color: #ea80fc; }
 .cyan { color: #80d8ff; }
+.cyan { color: #80d8ff; }
+.web-surfin-blue { color: #2196f3; }
+.daft-pink { color: #e91e63; }
+.dark-daft-pink { color: #880e4f; }
+.brand-copper { color: #bb8b7d; }
+.brand-grey { color: #808284; }
+.brand-dark-grey { color: #4c4c4b; }
+.brand-medium-grey { color: #a3a5a7; }
+.brand-light-grey { color: #dfe0e1; }
+.brand-tone-grey { color: #f7f7f8; }
+.brand-blue { color: #0264d6; }
+.brand-navy { color: #182677; }
+.brand-green { color: #009688; }
+.brand-error-red { color: #cb5332; }
 .bg-black-90 { background-color: rgba( 0, 0, 0, .9 ); }
 .bg-black-80 { background-color: rgba( 0, 0, 0, .8 ); }
 .bg-black-70 { background-color: rgba( 0, 0, 0, .7 ); }
@@ -1230,6 +1258,20 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .bg-pink { background-color: #ea80fc; }
 .bg-cyan { background-color: #80d8ff; }
 .bg-transparent { background: transparent; }
+.bg-cyan { background: #80d8ff; }
+.bg-web-surfin-blue { background: #2196f3; }
+.bg-daft-pink { background: #e91e63; }
+.bg-dark-daft-pink { background: #880e4f; }
+.bg-brand-copper { background: #bb8b7d; }
+.bg-brand-grey { background: #808284; }
+.bg-brand-dark-grey { background: #4c4c4b; }
+.bg-brand-medium-grey { background: #a3a5a7; }
+.bg-brand-light-grey { background: #dfe0e1; }
+.bg-brand-tone-grey { background: #f7f7f8; }
+.bg-brand-blue { background: #0264d6; }
+.bg-brand-navy { background: #182677; }
+.bg-brand-green { background: #009688; }
+.bg-brand-error-red { background: #009688; }
 /*
 
    SKINS:PSEUDO
