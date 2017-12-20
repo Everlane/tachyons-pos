@@ -4,14 +4,15 @@ Functional css for humans.
 
 Quickly build and design new UI without writing css.
 
-This is a fork of [Tachyons](https://github.com/tachyons-css/tachyons) with values being 
+This is a fork of [Tachyons](https://github.com/tachyons-css/tachyons) with values being
 configurable in a single variables file. More information about Tachyons can be found at http://tachyons.io
 
-##### src/_variables.css
+##### src/\_variables.css
+
 ```
 /*
 
-    VARIABLES   
+    VARIABLES
 
 */
 
@@ -21,17 +22,17 @@ configurable in a single variables file. More information about Tachyons can be 
 
 :root {
 
-  --sans-serif: -apple-system, BlinkMacSystemFont, 
-                'avenir next', avenir, 
-                helvetica, 'helvetica neue', 
-                ubuntu, 
-                roboto, 
-                noto, 
-                'segoe ui', 
-                arial, 
-                sans-serif; 
+  --sans-serif: -apple-system, BlinkMacSystemFont,
+                'avenir next', avenir,
+                helvetica, 'helvetica neue',
+                ubuntu,
+                roboto,
+                noto,
+                'segoe ui',
+                arial,
+                sans-serif;
   --serif: georgia, serif;  
-  --code: consolas, monaco, monospace; 
+  --code: consolas, monaco, monospace;
 
   --font-size-headline: 6rem;
   --font-size-subheadline: 5rem;
@@ -96,11 +97,11 @@ configurable in a single variables file. More information about Tachyons can be 
   --border-width-4: 1rem;
   --border-width-5: 2rem;
 
-  --box-shadow-1: 0px 0px 4px 2px rgba( 0, 0, 0, 0.2 ); 
-  --box-shadow-2: 0px 0px 8px 2px rgba( 0, 0, 0, 0.2 ); 
-  --box-shadow-3: 2px 2px 4px 2px rgba( 0, 0, 0, 0.2 ); 
-  --box-shadow-4: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 ); 
-  --box-shadow-5: 4px 4px 8px 0px rgba( 0, 0, 0, 0.2 ); 
+  --box-shadow-1: 0px 0px 4px 2px rgba( 0, 0, 0, 0.2 );
+  --box-shadow-2: 0px 0px 8px 2px rgba( 0, 0, 0, 0.2 );
+  --box-shadow-3: 2px 2px 4px 2px rgba( 0, 0, 0, 0.2 );
+  --box-shadow-4: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 );
+  --box-shadow-5: 4px 4px 8px 0px rgba( 0, 0, 0, 0.2 );
 
   --black: #000;
   --near-black: #111;
@@ -181,11 +182,13 @@ The quickest and easiest way to start using tachyons is to include a reference
 to the minified file in the head of your html file.
 
 Currently the latest version is 4.5.3
+
 ```html
 <link rel="stylesheet" href="https://unpkg.com/tachyons@4.5.3/css/tachyons.min.css">
 ```
 
 You can always grab the latest version with
+
 ```html
 <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
 ```
@@ -204,17 +207,17 @@ npm install
 
 If you want to just use src as a jumping off point and edit all the code yourself, you can compile all of your wonderful changes by running
 
-```npm start```
+`npm start`
 
 This will output both minified and unminified versions of the css to the css directory.
 
 If you want to recompile everything from src everytime you save a change - you can run the following command, which will compile and minify the css
 
-```npm run build:watch```
+`npm run build:watch`
 
 If you want to check that a class hasn't been redefined or 'mutated' there is a linter to check that all of the classes have only been defined once. This can be useful if you are using another library or have written some of your own css and want to make sure there are no naming collisions. To do this run the command
 
-```npm run mutations```
+`npm run mutations`
 
 ## Contributing
 
@@ -225,6 +228,7 @@ any changes you make to the css in this repo would get overridden.
 Also please read our [code of conduct](https://github.com/tachyons-css/tachyons/blob/master/code-of-conduct.md) for contributors.
 
 ## Websites that Use Tachyons
+
 (if you have a project that uses Tachyons feel free to make a PR to add it to this list)
 
 ## Help
