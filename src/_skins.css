@@ -356,5 +356,5 @@
   background: var(--brand-green);
 }
 .bg-brand-error-red {
-  background: var(--brand-green);
+  background: var(--brand-error-red);
 }
