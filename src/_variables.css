@@ -9,8 +9,9 @@
 @custom-media --breakpoint-large screen and (min-width: 60em);
 
 :root {
-  --sans-serif: verdana, sans-serif;
-  --serif: palatino, serif;
+  --sans-serif: "avenir next", avenir, helvetica, "helvetica neue", arial,
+    sans-serif;
+  --serif: times, serif;
   --monospace: monaco, monospace;
 
   --font-size-headline: 4.5rem;

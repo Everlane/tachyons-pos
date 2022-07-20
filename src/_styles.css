@@ -19,3 +19,88 @@ th,
 tr {
   box-sizing: content-box;
 }
+
+.h6 {
+  height: var(--height-6);
+}
+.h7 {
+  height: var(--height-7);
+}
+.h8 {
+  height: var(--height-8);
+}
+.h9 {
+  height: var(--height-9);
+}
+.h10 {
+  height: var(--height-10);
+}
+.h11 {
+  height: var(--height-11);
+}
+.h12 {
+  height: var(--height-12);
+}
+.h13 {
+  height: var(--height-13);
+}
+.h14 {
+  height: var(--height-14);
+}
+.h15 {
+  height: var(--height-15);
+}
+.h16 {
+  height: var(--height-16);
+}
+
+.w6 {
+  width: var(--width-6);
+}
+.w7 {
+  width: var(--width-7);
+}
+.w8 {
+  width: var(--width-8);
+}
+.w9 {
+  width: var(--width-9);
+}
+.w10 {
+  width: var(--width-10);
+}
+.w11 {
+  width: var(--width-11);
+}
+.w12 {
+  width: var(--width-12);
+}
+.w13 {
+  width: var(--width-13);
+}
+.w14 {
+  width: var(--width-14);
+}
+.w15 {
+  width: var(--width-15);
+}
+.w16 {
+  width: var(--width-16);
+}
+
+.center-vh {
+  position: absolute;
+  transform: translateY(-50%) translateX(-50%);
+  top: 50%;
+  left: 50%;
+}
+
+.center-v {
+  transform: translateY(-50%);
+  top: 50%;
+}
+
+.center-h {
+  transform: translateX(-50%);
+  left: 50%;
+}
