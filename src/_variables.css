@@ -93,6 +93,23 @@
   --width-15: 7.5rem;
   --width-16: 8rem;
 
+  --col-1: 4rem;
+  --col-2: 8rem;
+  --col-3: 12rem;
+  --col-4: 16rem;
+  --col-5: 20rem;
+  --col-6: 24rem;
+  --col-7: 28rem;
+  --col-8: 32rem;
+  --col-9: 36rem;
+  --col-10: 40rem;
+  --col-11: 44rem;
+  --col-12: 48rem;
+  --col-13: 52rem;
+  --col-14: 56rem;
+  --col-15: 60rem;
+  --col-16: 64rem;
+
   --max-width-1: 0.5rem;
   --max-width-2: 1rem;
   --max-width-3: 1.5rem;
