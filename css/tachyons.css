@@ -27,10 +27,10 @@
   BOX SIZING
 
 */
-html, body, div, article, section, main, footer, header, form, fieldset, legend,
-pre, code, a, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, textarea, table,
-td, th, tr, input[type="email"], input[type="number"], input[type="password"],
-input[type="tel"], input[type="text"], input[type="url"], .border-box { box-sizing: border-box; }
+html, body, div, article, section, main, footer, header, form, fieldset, pre,
+code, a, p, ul, ol, li, dl, dt, dd, textarea, input[type="email"],
+input[type="number"], input[type="password"], input[type="tel"],
+input[type="text"], input[type="url"], .border-box { box-sizing: border-box; }
 /*
 
    IMAGES
@@ -2078,6 +2078,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
   Add custom styles here.
 
 */
+legend, a, h1, h2, h3, h4, h5, h6, table, td, th, tr { box-sizing: content-box; }
 /* Variables */
 /* Importing here will allow you to override any variables in the modules */
 /*
