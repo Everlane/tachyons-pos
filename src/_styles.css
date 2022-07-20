@@ -88,6 +88,55 @@ tr {
   width: var(--width-16);
 }
 
+.col1 {
+  width: var(--col-1);
+}
+.col2 {
+  width: var(--col-2);
+}
+.col3 {
+  width: var(--col-3);
+}
+.col4 {
+  width: var(--col-4);
+}
+.col5 {
+  width: var(--col-5);
+}
+.col6 {
+  width: var(--col-6);
+}
+.col7 {
+  width: var(--col-7);
+}
+.col8 {
+  width: var(--col-8);
+}
+.col9 {
+  width: var(--col-9);
+}
+.col10 {
+  width: var(--col-10);
+}
+.col11 {
+  width: var(--col-11);
+}
+.col12 {
+  width: var(--col-12);
+}
+.col13 {
+  width: var(--col-13);
+}
+.col14 {
+  width: var(--col-14);
+}
+.col15 {
+  width: var(--col-15);
+}
+.col16 {
+  width: var(--col-16);
+}
+
 .center-vh {
   position: absolute;
   transform: translateY(-50%) translateX(-50%);
