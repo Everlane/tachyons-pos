@@ -9,10 +9,11 @@
 @custom-media --breakpoint-large screen and (min-width: 60em);
 
 :root {
-  --sans-serif: "avenir next", avenir, helvetica, "helvetica neue", arial,
-    sans-serif;
-  --serif: Century, times, serif;
-  --monospace: monaco, monospace;
+  --sans-serif: -apple-system, BlinkMacSystemFont, ui-sans-serif, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  --serif: ui-serif, Century, Times, serif;
+  --monospace: ui-monospace, monaco, monospace;
 
   --font-size-headline: 4.5rem;
   --font-size-subheadline: 3rem;
